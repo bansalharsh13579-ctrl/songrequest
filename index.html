@@ -207,7 +207,7 @@ const IntroScreen = ({ onNext }) => (
     <div>
       <h1 className="font-title text-5xl text-purple-700 mb-3 drop-shadow-sm font-extrabold">Spotlight on You!</h1>
       <p className="font-body text-gray-700 text-lg leading-relaxed font-medium">
-        Ullu khi ki This is important! i havee importantt request 😭😭     
+        Uhmm its beeeeeen tooo manyy days ullu ib saY YES OR NO  😭😭     
       </p>
     </div>
 
@@ -215,7 +215,7 @@ const IntroScreen = ({ onNext }) => (
       onClick={onNext}
       className="bg-purple-600 text-white font-title font-bold py-3 px-10 rounded-full shadow-lg hover:bg-purple-700 hover:shadow-xl hover:scale-105 transition-all duration-700 flex items-center gap-2 mx-auto ring-4 ring-purple-300/50"
     >
-      Hear the Request <ArrowRight size={18} />
+      PLEASE SEE <ArrowRight size={18} />
     </button>
   </Card>
 );
@@ -228,14 +228,14 @@ const RequestIntroScreen = ({ onNext }) => (
     </div>
     
     <p className="font-body text-gray-700 text-xl leading-relaxed px-2 font-medium">
-      Your voice is my REALLYYYY amazing so just sing the song 😭😭.
+      i want it i wanttt itt ☹️🥺👉👈.
     </p>
 
     <button 
       onClick={onNext}
       className="bg-yellow-400 text-purple-900 font-title font-bold py-3 px-10 rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-700 flex items-center gap-2 mx-auto ring-4 ring-yellow-200"
     >
-      Convince Me <Music size={20} className="stroke-2"/>
+      may this convince uh <Music size={20} className="stroke-2"/>
     </button>
   </Card>
 );
@@ -245,9 +245,9 @@ const ReasonsScreen = ({ onNext }) => {
   const [revealed, setRevealed] = useState([false, false, false]);
 
   const reasons = [
-    { text: "It's a genuinelyy mazedaar 😭😭.", color: "from-blue-400 to-indigo-400" },
-    { text: "all i know is you sound absolutely amazing .", color: "from-purple-400 to-pink-400" },
-    { text: "It will always be good to me😭😭😭😭😭😭, guaranteed.", color: "from-yellow-400 to-orange-400" }
+    { text: "Pleaseee nna ullu.", color: "from-blue-400 to-indigo-400" },
+    { text: "Me request ☹️🥺👉👈 its just so good.", color: "from-purple-400 to-pink-400" },
+    { text: "this lastt timeeeee .", color: "from-yellow-400 to-orange-400" }
   ];
   
   // Array of delay classes for staggered animation
@@ -328,11 +328,11 @@ const FinalScreen = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   // The persistent song request message
-  const finalRequestText = `Please, please, please sing SNOWMAN🥹! I'll be waiting with open ears.im sorry i know its test tmrw u caan after it😭. 
+  const finalRequestText = `last time did for snowman.... now requesting heerrrr. 
   
-  I dont know reason why u not singing atleast tell why not otherwise i have no option.. violence!
+  I know tym ni milra/ mnn ni hotaa gaane ka kbhi but u leave me no choice!🥱😾
   
-  🎶 Requesting deeply😭 SNOWMAN,, it doesnt matter good or bad.. 🎶 [Also am i pareshaning? i have doubts😭😭]`;
+  🎶 Requesting deeply, politely and hope so last time ,, heer!!,, [please tell also😭😭 kii am i pareshaning too much? tell review also ;/ ]`;
   
   // Prepare text for display
   const displayRequestText = finalRequestText.split('\n').map((p, i) => p.trim() ? <p key={i} className="mb-4">{p}</p> : null);
@@ -462,5 +462,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 </body>
 
 </html>
+
 
 
